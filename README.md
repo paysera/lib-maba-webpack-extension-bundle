@@ -1,4 +1,4 @@
-# lib-maba-webpack-integration-bundle
+# lib-maba-webpack-extension-bundle
 
 This Bundle allows developer to hook into `maba/webpack-bundle` webpack.config.js dumping process and make changes
 needed for developer environment.
