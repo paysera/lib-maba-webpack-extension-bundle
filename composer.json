@@ -1,0 +1,13 @@
+{
+    "name": "paysera/lib-maba-webpack-extension-bundle",
+    "type": "library",
+    "description": "Provides extensions for maba/webpack-bundle to integrate better into developer environment",
+    "autoload": {
+        "psr-4": {
+            "Paysera\\Bundle\\MabaWebpackExtensionBundle\\": "src/"
+        }
+    },
+    "require": {
+        "maba/webpack-bundle": "^1.0"
+    }
+}
