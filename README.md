@@ -46,11 +46,16 @@ paysera_maba_webpack_extension:
         manifest_path: true
         entry: false
     replaced_webpack_config_path: "%kernel.cache_dir%/webpack.config_%kernel.environment%.js"
+
+maba_webpack:
+    aliases:
+        prefix: '%' # change the prefix to something different than "@"
 ```
 
 * `replace_paths` - `array` of key-value paths to replace in `webpack.config.js`.
 * `replace_items` - `array` of switches where to use `replace_paths` on.
 * `replaced_webpack_config_path` - `string` where to put modified `webpack.config.js`.
+* change the default `maba_webpack.aliases.prefix` to something different than `@`, `#` or `!`
 
 ## Recommended setup
 
