@@ -72,3 +72,7 @@ Install `eslint-import-resolver-webpack` and configure your `.eslintrc` settings
   }
 ```
 With these lines you'll be able to get rid of `import/no-unresolved` message.
+
+### IDE config
+
+Just change IDE's `webpack.config.js` to `app/cache/dev/webpack.config_dev.js`
